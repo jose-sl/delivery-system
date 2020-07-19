@@ -1,0 +1,14 @@
+table, th, td {
+    border-collapse: collapse;
+  }
+
+  .center {    
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center_td {
+    text-align: right;
+    font-size: 10px;
+  }

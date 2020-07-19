@@ -1,0 +1,10 @@
+table, th, td {
+    border-collapse: collapse;
+  }
+
+  .center {    
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+

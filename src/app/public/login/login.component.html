@@ -1,0 +1,17 @@
+<div style="text-align:center">
+    <h1>Sistema De Envíos</h1>
+    <table class="center">
+        <tr>
+            <td><input name="userNic" placeholder="Usuario" type="text" [(ngModel)]="userNic"></td>
+        </tr>
+        <tr>
+            <td><input name="password" placeholder="Contraseña" type="password" [(ngModel)]="password"></td>    
+        </tr>
+        <tr>
+            <td><button (click)="login()" type="submit">Ingresar</button></td>
+        </tr>
+        <tr>
+            <td><p style="color: red;" *ngIf="errorState">* {{ errorMessage }}</p></td>
+        </tr>
+    </table>
+</div>

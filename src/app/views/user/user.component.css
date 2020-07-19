@@ -1,0 +1,36 @@
+  table, th, td {
+    border-collapse: collapse;
+  }
+
+  .center {    
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center th {
+    border: 1px solid black;
+  }
+
+  .center td {
+    border: 1px solid black;
+    width: 400px;
+  }
+
+  .left-button {    
+    width: 800px;
+  }
+
+  .center-modal {    
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .center-modal-button{
+    text-align: center;
+  }
+
+  .modal-text {    
+    width: 300px;
+  }
